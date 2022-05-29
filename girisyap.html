@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOAT WEAR</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="girisyap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    
+  
+</head>
+<body>
+
+    
+ 
+    <section>
+        <div class="container">
+            <div class="user siginBox">
+                <div class="imgBox"><img src="resimler/x arka.png" alt="" width="500px"></div>
+                <div class="formBox">
+                    <form>
+                        <h2>Giriş Yap</h2>
+                        <input type="text" placeholder="Kullanıcı Adı">
+                        <input type="password" placeholder="Şifre">
+                        <input type="submit" value="Giriş">
+                        <p class="signup">Hesabınız yokmu? Hemen<a href="#" onclick="toogleForm();"> Kayıt Ol</a></p>
+                        <br>
+                        <a href="proje.html"><b> ANA SAYFAYA DÖN </b></a>
+                    </form>
+                </div>
+            </div>
+            <div class="user sigupBox">
+                    <div class="formBox">
+                    <form>
+                        <h2>Üyelik Oluştur</h2>
+                        <input type="text" placeholder="Kullanıcı Adı">
+                        <input type="email" placeholder="E-Mail">
+                        <input type="password" placeholder="Şifre Oluştur">
+                        <input type="password" placeholder="Şifre oluştur(tekrar)">
+                        <input type="submit" value="Kayıt Ol">
+                        <p class="signup">Hesabınız varmı? O zaman<a href="#" onclick="toogleForm();"> Giriş Yap </a></p>
+                        <br>
+                        <a href="proje.html"><p> ANA SAYFAYA DÖN </p></a>
+                    </form>
+                </div>
+                <div class="imgBox"><img src="resimler/NOBODY ARKA.png" alt="" width="500px"></div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function toogleForm( ){
+            section=document.querySelector('section');
+            container=document.querySelector('.container');
+            container.classList.toggle('active');
+            section.classList.toggle('active');
+        }
+    </script>
+
+  
+
+  
+  
+
+
+  <script src="bootstrap.js"></script>
+  </body>
+  

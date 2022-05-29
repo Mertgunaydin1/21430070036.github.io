@@ -1,0 +1,82 @@
+
+.logo{
+    height: 100px;
+    width: 300px;
+    
+}
+.ayrac{
+    font-size: 18px;
+    margin: 0px 10px;
+    color: #ffff;
+}
+.nav-bg{
+    background-color: black;
+}
+.nav-item a{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+.nav-item a:hover{
+    color: red;
+}
+.navbar-toggler-icon{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+@media screen and (max-width:992px) {
+    .ayrac{
+        display: none;
+    }
+    
+}
+.carousel-item{
+    height: 550px;
+}
+
+
+/* TEKLİF KISMI */
+.teklif{
+    height: 50px;
+}
+.kral{
+    color: black;
+    font-size: 20px;
+}
+.degisim{
+    color: black;
+    font-weight: bold;
+}
+.degisim2{
+    color: red;
+}
+.degisim3{
+    font-weight: bold;
+}
+
+/*  HOODİE KISMI */
+.hoodie{
+ background-color:rgba(225, 225, 225, 0.508);
+}
+.baslık1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: black;
+}
+.hoodie2{
+height: 300px;
+width: 300px;
+}
+/* İLETİŞİM KISMI */
+.simge1{
+    font-size: 15px;
+}
+.simge2{
+    font-size: 18px;
+
+} 
+/* HAKKIMZIDA KISMI */
+.hakkımızdaresim{
+    width: 500px;
+    height: 250px;
+}
+
